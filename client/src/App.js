@@ -1,5 +1,4 @@
 import Login from './pages/Login';
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { Provider } from 'react-redux';
