@@ -2,8 +2,6 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBugs, createBug } from '../features/bugs/bugsSlice';
 import { Container, Typography, Button, Box, CircularProgress, Alert } from '@mui/material';
-import BugTable from '../components/BugTable';
-import BugFormModal from '../components/BugFormModal';
 
 const Bugs = () => {
   const dispatch = useDispatch();

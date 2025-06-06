@@ -1,16 +1,13 @@
+import Login from './pages/Login';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { Provider } from 'react-redux';
-import { store } from './app/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from 'redux-persist';
 
-import Dashboard from './pages/Dashboard';
-import Login from './pages/Login';
-import Register from './pages/Register';
 import Bugs from './pages/Bugs';
-import BugDetails from './pages/BugDetails';
-import PrivateRoute from './components/PrivateRoute';
+import { store } from './app/store';
 
 const theme = createTheme();
 
